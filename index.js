@@ -188,6 +188,7 @@
 
 /* ------------------------------------------------------------------------------------------------------------------ */
 /* BEST PRACTICES */
+
 // JavaScript best practices
 // - use === rather than ==
 // - Use parameter defaults rather than set values inside function
@@ -222,5 +223,36 @@
 // CSS best practices
 // - Use shorthand
 // - Alphabetize your properties
+// -webkit-transition: 0.1s background-color, 0.1s color, 0.1s border-color;
+// transition: 0.1s background-color, 0.1s color, 0.1s border-color;
+// vertical-align: middle;
+// font-size: 1em;
+// border-radius: 0.2857142857142857em;
+// box-sizing: border-box;
+// outline: none;
+// height: 2.4999999999999996em;
+// line-height: 2.8571428571428568em;
+// padding: 0 1.1428571428571428em;
+// border: 0.14285714285714285em solid #E5E6EB;
+// background-color: #ffffff;
+// color: #3C4155;
+// font-size: 1em;
+// line-height: 1em;
+// font-family: "Roboto",sans-serif;
+// font-weight: 400;
 // - EM vs PX vs VH/VW/VMIN/VMAX
+
+// let obj = {
+//     name: 'test 1'
+// };
+//
+// console.log('1: ', obj);
+//
+// setTimeout(() => {
+//    obj.name = 'test 3';
+//    console.log('3: ', obj);
+// }, 2000);
+//
+// obj.name = 'test 2';
+// console.log('2: ', obj);
 
